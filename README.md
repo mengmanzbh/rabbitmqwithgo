@@ -3,8 +3,8 @@
 在A和B两台服务器上操作
 
 step1
-在A台服务器上:
-docker run -d --hostname my-rabbit -p 8080:15672 -p 5672:5672 rabbitmq:3-management
+在A台服务器上
+* docker run -d --hostname my-rabbit -p 8080:15672 -p 5672:5672 rabbitmq:3-management
 
 step2
 在B台服务器上
