@@ -23,7 +23,7 @@ step1
 
 
 例：创建一个超级用户
-* rabbitmqctl add_user admin1 admin1
+* rabbitmqctl add_user admin1 cCUnyz3ywWKVcjXw
 
 
 * rabbitmqctl set_user_tags admin1 administrator
