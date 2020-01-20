@@ -4,7 +4,8 @@
 
 step1
 在A台服务器上
-* docker run -d --hostname my-rabbit -p 8090:15672 -p 5672:5672 rabbitmq:3
+* docker run -d --hostname my-rabbit --name rabbitmq -p 8090:15672 -p 5672:5672 rabbitmq:3
+* docker exec -it rabbitmq bash
 * rabbitmq-plugins enable rabbitmq_management
 
 # 开启rabbitmq web界面
